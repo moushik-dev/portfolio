@@ -125,7 +125,7 @@ export default function App() {
 
             <div className="hero-copy reveal">
               <div className="diu-badge-mini">
-                <img src="/diu-logo.png" alt="DIU Logo" />
+                <img src={`${import.meta.env.BASE_URL}diu-logo.png`} alt="DIU Logo" />
                 <span>Daffodil International University • CSE</span>
               </div>
               <h1>Hi, I'm <span>Moushikur Rahman.</span></h1>
@@ -148,7 +148,7 @@ export default function App() {
           <div className="hero-art reveal">
             <div className="portrait-photo-preview">
               <img
-                src="/moushik-portrait.jpeg"
+                src={`${import.meta.env.BASE_URL}moushik-portrait.jpeg`}
                 alt="Moushikur Rahman portrait"
                 style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' }}
               />
@@ -343,14 +343,14 @@ export default function App() {
           <article className="diu-education-card">
             <div className="diu-logo-container">
               <img
-                src="/diu-logo.png"
+                src={`${import.meta.env.BASE_URL}diu-logo.png`}
                 alt="Daffodil International University (DIU) Official Crest"
                 className="diu-logo-img"
               />
             </div>
             <div>
               <div className="diu-badge-mini" style={{ marginBottom: '8px' }}>
-                <img src="/diu-logo.png" alt="DIU mini" />
+                <img src={`${import.meta.env.BASE_URL}diu-logo.png`} alt="DIU mini" />
                 <span>DAFFODIL INTERNATIONAL UNIVERSITY</span>
               </div>
               <h3 style={{ fontSize: '26px', margin: '4px 0 8px', letterSpacing: '-0.02em' }}>
