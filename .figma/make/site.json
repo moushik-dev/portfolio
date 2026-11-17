@@ -1,0 +1,10 @@
+{
+  "description": "Explore Moushikur Rahman’s CSE portfolio to discover his projects, skills, education, and programming activities, and connect with him.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
